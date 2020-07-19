@@ -1,0 +1,19 @@
+var Ali_w = prompt(" Ali! Enter your weight in Kg");
+var Ali_h = prompt(" Ali! Enter your height in meters");
+var Ali_bmi= Ali_w/(Ali_h*Ali_h);
+var Ahmad_w = prompt(" Ahmed! Enter your weight in Kg");
+var Ahmad_h = prompt(" Ahmed! Enter your height in meters");
+var Ahmad_bmi= Ahmad_w/(Ahmad_h*Ahmad_h);
+
+console.log('Ali has a BMI of'+ Ali_bmi);
+console.log('Ahmad has a BMI of'+ Ahmad_bmi);
+
+if ( Ali_bmi > Ahmad_bmi ){
+console.log('BMI of Ali is greater');
+}
+else if ( Ahmad_bmi > Ali_bmi ){
+console.log(' BMI of Ahmed is greater'); 
+}
+else{
+    console.log('Both have same BMI');
+}
